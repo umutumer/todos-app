@@ -1,0 +1,64 @@
+.todo-container{
+    width: 500px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 3px rgba(0,238,255,1);
+    h1{
+      color: white;
+    }
+    ul{
+        list-style: none;
+        li{
+            font-size: 20px;
+            color: white;
+        }
+    }
+   input[type="text"]{
+    width: 300px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+   }
+   input[type="submit"]{
+    width: 70px;
+    height: 25px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+   
+
+    &:hover{
+        background-color: rgb(0, 219, 0);
+        border: 1px solid rgb(56, 255, 56);
+        color: white;
+        transition: ease-in-out .3s;
+        box-shadow: 0px 0px 20px 3px rgba(91,255,82,1);
+    }
+   }
+   
+    
+}
+.btn{
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    &:hover{
+        background-color: red;
+        color: white;
+        transition: ease-in-out .3s;
+        box-shadow: 0px 0px 20px 3px rgba(255,0,0,1);
+    }
+}
